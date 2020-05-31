@@ -1,3 +1,4 @@
+# SNOOZE
 This web application can help you fake yourself in a online meeting while you can take a snooze.
 
 ## How to use?
@@ -7,8 +8,8 @@ You can add as many reaction videos as you want for any words. When no words mat
 
 ### Requirement for running this project locally.
 
-1) Node & npm/yarn.
-2)Browser(Preferably chrome).
+  1) Node & npm/yarn.
+  2)Browser(Preferably chrome).
 
 ### Getting started
 
