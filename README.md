@@ -8,21 +8,25 @@ You can add as many reaction videos as you want for any words. When no words mat
 
 ### Requirement for running this project locally.
 
-  1) Node & npm/yarn.
-  2)Browser(Preferably chrome).
+    1) Node & npm/yarn.
+    2)Browser(Preferably chrome).
 
 ### Getting started
 
 Clone the project
-  `git clone https://github.com/seal-7/snooze.git`
+
+    git clone https://github.com/seal-7/snooze.git
 
 Change to project directory.
-  `cd snooze`
+
+    cd snooze
 
 Install dependencies using package manager.(npm used here)
-  `npm install`
+
+    npm install
 
 Run the project
-  `npm start`
+
+    npm start
 
 Open http://localhost:3000 in your browser.
