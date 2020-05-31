@@ -60,7 +60,7 @@ function init() {
     // Add the current transcript to the contents of our Note.
     // There is a weird bug on mobile, where everything is repeated twice.
     // There is no official solution so far so we have to handle an edge case.
-    var mobileRepeatBug = (current == 1 && transcript == event.results[0][0].transcript);
+    var mobileRepeatBug = (current === 1 && transcript === event.results[0][0].transcript);
 
     if(!mobileRepeatBug) {
       console.log(transcript);

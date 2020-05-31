@@ -50,12 +50,11 @@ function VideoMapper() {
         alert("KeyWord already exists!!");
         return;
     }
-    let id= mappedVideos.length;
+        
     setMappedVideos([
       ...mappedVideos,
       {"keyword": newKeyword, "video": newVideo}
     ]);
-    
     if(DataStore.isEmpty()) {
       console.log("Adding baseVideo");
         Player.addVideoToQueue(newVideo);
